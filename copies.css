@@ -1,0 +1,30 @@
+
+//
+<meta name="viewport" content="initial-scale=1">
+//
+
+
+
+
+
+@media screen and (max-width: 980px)
+{
+
+	
+.wrapper {
+	width:  100%px;
+	padding: 20px;
+
+}
+
+#sectionbox,
+#asidebox {
+	width:  100%;
+
+}
+#asidebox{
+	margin-top: 40px;
+
+}
+
+}
