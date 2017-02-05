@@ -5,25 +5,80 @@
 
 
 
-/*980
+
+
 @media screen and (max-width: 980px)
 {
 
-	
+  
 .wrapper {
-	width:  100%px;
-	padding: 20px;
+  width:  100%px;
+  padding: 20px;
 
 }
 
-#sectionbox,
-#asidebox {
-	width:  100%;
+.sidebar,
+.mainsection {
+  width:  100%;
 
 }
-#asidebox{
-	margin-top: 40px;
+.sidebar{
+  margin-top: 40px;
 
 }
 
+}
+
+@media screen and (max-width: 768px){
+
+p:last-child {
+  float: right;
+  align: top;
+  
+}
+
+.main-section {
+  max-width: 700px;
+  display: inline-block;
+} 
+
+
+float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.sidebar {
+  float: right;
+  max-width: 700px;
+
+}
+}
+
+}
+@media screen and (max-width: 640px){
+
+.main-section {
+  max-width: 600px;
+  height: auto;
+  padding-right: 70px;
+
+}
+
+.auth-image {
+  width: 600px;
+  height: auto;
+}
+
+.sidebar {
+float: right;
+max-width: 620px;
+}
+
+nav {
+  margin-right: 70px;
+  float: right;
+  margin-top: 25px;
+  
+}
 }

@@ -1,9 +1,11 @@
-ody {
+
+body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
   color: #777;
   line-height: 34px;
-  background-image: url("responsive-portfolio/images/grey_wash_wall_@2X.png");                 
+  background: url("../images/concrete_seamless.png");
+
 }
 
 * {
@@ -35,7 +37,7 @@ h1,
 h2,
 h3 {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
+  color: #800020;
   font-weight: 700;
 }
 
@@ -74,9 +76,9 @@ h3 {
   line-height: 90px;
   color: #fff;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #800020;
 }
 
 nav {
@@ -109,7 +111,7 @@ footer {
   font-size: 12px;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #800020;
 }
 
 
@@ -192,7 +194,7 @@ h3,
   text-align: center;
   line-height: 30px;
   font-weight: 300;
-  background: #4aaaa5;
+  background: #800020;
   border-bottom: 0;
 }
 
@@ -245,26 +247,103 @@ input[type=submit] {
   border: 0 none;
 }
 
+/*
+
 @media screen and (max-width: 980px)
 {
 
-  
-.wrapper {
-  width:  100%px;
-  padding: 20px;
+	  
+	.wrapper {
+		width:  100%;
+		padding: 20px;
+
+	}
+
+	.sidebar,
+	.mainsection {
+	  width:  100%;
+
+	}
+	.sidebar{
+	  margin-top: 40px;
+
+	}
 
 }
 
-#sectionbox,
-#asidebox {
-  width:  100%;
+@media screen and (max-width: 768px){
 
-}
-#asidebox{
-  margin-top: 40px;
+	p:last-child {
+	  float: right;
+	  vertical-align: top;
+	  
+	}
 
+	.main-section {
+	  max-width: 700px;
+	  display: inline-block;
+	} 
+
+	#masthead {
+	  max-width: 650px;
+	  height: auto;
+	  margin-right: 90px;
+	  
+	}
+
+	.sidebar {
+	  float: right;
+	  max-width: 700px;
+
+	}*/
 }
 
+
+@media screen and (max-width: 640px) {
+
+	#masthead {
+	  max-width: 500px;
+	  height: auto;
+	  margin-right: 90px;
+	  
+	}
+
+	#connect {
+
+		display: none !important;
+	}
+
+  body {
+
+    background-color: black;
+  }
+
+	.auth-image {
+	  width: 375px;
+	  height: auto;
+	}
+
+	.sidebar {
+		display:  none;
+	}
+
+	nav {
+	  margin-right: 70px;
+	  float: right;
+	  margin-top: 25px;
+	  
+	}
+
+
+	.main-section {
+		  width: 400px;
+		  padding-right: 30px;
+	 
+
+	}
 }
+
+
+
 
 
